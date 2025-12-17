@@ -1,0 +1,111 @@
+:root {
+  --font-family: "Montserrat Alternates", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Sacramento", sans-serif;
+  --text-color: #000000;
+  --main-bg-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+main {
+  padding: 36px 0;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  gap: 36px;
+}
+
+.main-title::after {
+  content: "";
+  display: block;
+  background-color: var(--text-color);
+  height: 1px;
+  width: 536px;
+}
+
+.container {
+  width: 1120px;
+  padding: 0 15px;
+  margin: auto;
+  outline: solid 1px red;
+}
+
+.header {
+  padding: 21px 0;
+}
+
+.card {
+  padding: 36px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  background-color: var(--text-color);
+  height: 1px;
+  width: 536px;
+}
+
+.footer {
+  padding: 60px 0;
+}/*# sourceMappingURL=main.css.map */
