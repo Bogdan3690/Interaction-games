@@ -35,8 +35,9 @@
         <div class="card">
           <h2 class="card-title">Перевір в який рік ти народився</h2>
           <div class="card-wrapper">
-            <form class="card-form" action="">
+            <form class="card-form js-cheak-year-form" action="">
               <input
+              name="yearInput"
                 placeholder="Введіть рік народження"
                 class="card-input"
                 type="text"
@@ -45,7 +46,7 @@
                 <img src="./img/search.svg" alt="">
               </button>
             </form>
-            <p class="card-text">Ви народилися у високосний рік!</p>
+            <p class="card-text js-cheak-year-text">Ви народилися у високосний рік!</p>
           </div>
         </div>
         <div class="card">
@@ -71,5 +72,7 @@
     <footer class="footer">
       <div class="container"></div>
     </footer>
+    <script src="./js/cheak-year.js">
+    </script>
   </body>
 </html>
