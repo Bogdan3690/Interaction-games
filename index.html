@@ -15,15 +15,15 @@
   <body>
     <header class="header">
       <div class="container">
-        <a href="./index.html"><img src="./scss/img/header-img.svg" alt="" /></a>
-        <ul class="list">
-          <li><a href="">Інтерактив</a><button type="button"><img src="./scss/img/vector.svg" alt=""></button></li>
+        <a class="header-logo" href="./index.html"><img src="./img/header-img.svg" alt="" /></a>
+        <ul class="header-list">
+          <li><a href="">Інтерактив</a><button type="button"><img src="./img/vector.svg" alt=""></button></li>
           <li><a href="">Наша команда</a></li>
           <li><a href="">Контакти</a></li>
         </ul>
         <div class="welcome">
           <button class="switch-theme-btn" type="button">
-            <img src="./scss/img/black-theme.svg" alt="">
+            <img src="./img/black-theme.svg" alt="">
           </button>
           <p class="header-text">Вітаємо,</p>
         </div>
@@ -34,14 +34,16 @@
         <h1 class="main-title">Популярні інтерактивні ігри</h1>
         <div class="card">
           <h2 class="card-title">Перевір в який рік ти народився</h2>
-          <div>
+          <div class="card-wrapper">
             <form class="card-form" action="">
               <input
                 placeholder="Введіть рік народження"
                 class="card-input"
                 type="text"
               />
-              <button class="card-btn" type="submit"></button>
+              <button class="card-btn" type="submit">
+                <img src="./img/search.svg" alt="">
+              </button>
             </form>
             <p class="card-text">Ви народилися у високосний рік!</p>
           </div>
