@@ -1,5 +1,5 @@
-const form = document.querySelector('.js-cheak-year-form')
-const text = document.querySelector('.js-cheak-year-text')
+const form = document.querySelector('.js-check-year-form')
+const text = document.querySelector('.js-check-year-text')
 
 form.addEventListener('submit', onSubmit)
 
