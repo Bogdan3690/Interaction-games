@@ -32,8 +32,16 @@
   height: 35px;
 }
 
+.guess-number-card-form{
+  width: 150px;
+}
+
 .card-input {
   @extend %input;
+}
+
+.guess-number-input{
+  width: 95px;
 }
 
 .card-input:placeholder {
@@ -47,7 +55,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 149px;
 }
 
 // .card-text

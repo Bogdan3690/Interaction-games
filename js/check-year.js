@@ -15,13 +15,12 @@ function onSubmit(event){
         text.style.color = 'red'
         return
     }
-    if (yearValue % 4 === 0) {
+    if (yearValue % 4 === 0 && yearValue % 100 !== 0 || yearValue % 400 === 0) {
         text.textContent = 'Ви народилися у високосний рік!'
         text.style.color = 'green'
-    // }else if (){
-    //     // check for 100
-    // }else if (){
-        // check for 400
+    }else if (yearValue % 100 === 0){
+        text.textContent = 'Ви народилися не у високосний рік!'
+        text.style.color = 'red'
     }else{
         text.textContent = 'Ви народилися не у високосний рік!'
         text.style.color = 'red'

@@ -163,6 +163,14 @@ main {
   height: 35px;
 }
 
+.guess-number-card-form {
+  width: 150px;
+}
+
+.guess-number-input {
+  width: 95px;
+}
+
 .card-input:placeholder {
   font-family: var(--font-family);
   font-weight: 400;
@@ -174,7 +182,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 149px;
 }
 
 .footer {
