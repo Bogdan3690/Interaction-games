@@ -32,7 +32,7 @@
   height: 35px;
 }
 
-.guess-number-card-form{
+.guess-number-card-form {
   width: 150px;
 }
 
@@ -40,7 +40,7 @@
   @extend %input;
 }
 
-.guess-number-input{
+.guess-number-input {
   width: 95px;
 }
 
@@ -51,11 +51,22 @@
   color: #7e7e7e;
 }
 
-.card-wrapper{
+.card-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 600px;
 }
 
-// .card-text
+.card-wrapper-biggest-number {
+  input {
+    width: 135px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+margin-bottom: 54px;
+}
+
+.card-text{
+font-size: 12px;
+}
