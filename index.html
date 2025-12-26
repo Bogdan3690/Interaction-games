@@ -46,13 +46,13 @@
                 <img src="./img/search.svg" alt="">
               </button>
             </form>
-            <p class="card-text js-check-year-text">Ви народилися у високосний рік!</p>
+            <p class="card-text js-check-year-text">Введіть рік свого народження!</p>
           </div>
         </div>
         <div class="card">
           <h2 class="card-title">Вгадай число, яке загадав комп’ютер</h2>
           <div class="card-wrapper">
-            <form class="card-form guess-number-card-form js-guess-number" action="">
+            <form class="card-form js-guess-number-form" action="">
               <input
               name="numberInput"
                 placeholder="Введіть число"
@@ -63,7 +63,7 @@
                 <img src="./img/search.svg" alt="">
               </button>
             </form>
-            <p class="card-text js-guess-number">Вітаю, ви вгадали число! (number)</p>
+            <p class="card-text js-guess-number">Введіть число від 0 до 10!</p>
           </div>
         </div>
         <div class="card">
@@ -86,7 +86,9 @@
     <footer class="footer">
       <div class="container"></div>
     </footer>
-    <script src="./js/check-year.js">
+    <script type="module" src="./js/check-year.js">
+    </script>
+    <script type="module" src="./js/guess-number.js">
     </script>
   </body>
 </html>
