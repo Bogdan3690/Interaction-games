@@ -1,6 +1,5 @@
 const form = document.querySelector('.js-guess-number-form')
 const text = document.querySelector('.js-guess-number')
-console.log(form);
 
 form.addEventListener('submit', onSubmit)
 
@@ -21,9 +20,7 @@ function onSubmit(event) {
         return
     }
     let randomNumber = Math.round(Math.random() * (10 - 1) + 1)
-    // console.log(Math.round(Math.random() * (10 - 1) + 1));
     console.log(randomNumber, numberValue);
-
     
     if (randomNumber === numberValue) {
         text.textContent = `Вітаю, ви вгадали число! ${numberValue}`
