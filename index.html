@@ -68,6 +68,15 @@
         </div>
         <div class="card">
           <h2 class="card-title">Камінь - ножиці - папір</h2>
+          <ul class="rock-paper-scissors-list">
+            <li class="rock-paper-scissors-item"><img class="rock-paper-scissors-img" src="./img/stone.svg" alt=""></li>
+            <li class="rock-paper-scissors-item"><img class="rock-paper-scissors-img" src="./img/scissors.svg" alt=""></li>
+            <li class="rock-paper-scissors-item"><img class="rock-paper-scissors-img" src="./img/paper.svg" alt=""></li>
+            <li>
+          <p class="rock-paper-scissors-score">Рахунок: Комп’ютер - 0 Ви - 0</p></li>
+          </ul>
+          <p class="rock-paper-scissors-text">Ви виграли раунд!</p>
+          <button class="rock-paper-scissors-button" type="button">Варіант комп’ютера</button>
         </div>
         <div class="card">
           <h2 class="card-title">Калькулятор</h2>
@@ -102,7 +111,7 @@
                 type="text"
               />
           </div>
-          <p class="card-text js-biggest-number-text">Найбільше число, яке ви ввели - (число)</p>
+          <p class="card-text js-biggest-number-text">Найбільше число, яке ви ввели - <span class="js-result"></span></p>
         </div>
         <div class="card">
           <h2 class="card-title">Наша команда</h2>
@@ -117,6 +126,8 @@
     <script type="module" src="./js/guess-number.js">
     </script>
     <script type="module" src="./js/biggest-number.js">
+    </script>
+    <script type="module" src="./js/calculator.js">
     </script>
   </body>
 </html>

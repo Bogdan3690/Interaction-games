@@ -198,6 +198,36 @@ main {
   font-size: 12px;
 }
 
+.rock-paper-scissors-img {
+  background-color: var(--text-color);
+  padding: 10px;
+  border-radius: 20%;
+}
+
+.rock-paper-scissors-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+}
+
+.rock-paper-scissors-text {
+  margin-top: 42px;
+  margin-bottom: 36px;
+}
+
+.rock-paper-scissors-score {
+  margin-left: 108px;
+  width: 124px;
+}
+
+.rock-paper-scissors-button {
+  background-color: var(--text-color);
+  color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
 .footer {
   padding: 60px 0;
 }/*# sourceMappingURL=main.css.map */
