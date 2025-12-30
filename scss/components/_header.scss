@@ -17,9 +17,13 @@
     gap: 50px;
 }
 
-
 .welcome{
     margin-left: auto;
     display: flex;
     gap: 51px;
+}
+
+.img-white-theme.hidden, .hidden.img-black-theme{
+    opacity: 0;
+    width: 1px;
 }
