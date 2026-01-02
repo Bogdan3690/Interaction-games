@@ -233,6 +233,84 @@ main {
   padding: 10px 20px;
 }
 
+.football-text {
+  margin-bottom: 36px;
+}
+
+#field {
+  width: 720px;
+  height: 220px;
+  border: 2px solid black;
+  border-radius: 37px;
+  background-color: #5abb58;
+  position: relative;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 100px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+}
+
+.calculator-text {
+  font-size: 12px;
+  color: #7e7e7e;
+  background-color: #d7d7d7;
+  text-align: center;
+  padding: 10px;
+  width: 118px;
+  border: none;
+  border-radius: 20px;
+}
+
+.calculator-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+}
+
+.calculator-card .card-input {
+  border-radius: 20px;
+  width: 135px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.operations-list {
+  display: flex;
+}
+
+.calculator-btn {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  gap: 10px;
+  background: var(--text-color);
+  color: var(--main-bg-color);
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.time-calculator {
+  width: 400px;
+}
+
+.time-calculator .card-form {
+  width: 150px;
+}
+
 .footer {
   padding: 60px 0;
 }/*# sourceMappingURL=main.css.map */

@@ -81,14 +81,46 @@
         </div>
         <div class="card">
           <h2 class="card-title">Калькулятор</h2>
-          <!-- Створіть змінні для зберігання двох чисел та оператора
-            (як у списку select).
-         Виконайте відповідну
-            операцію та виведіть результат. 
-            У випадку ділення на нуль — виведіть попередження. -->
+          <div class="calculator-card">
+          <input
+              name="calculatorNumber"
+                placeholder="Введіть число"
+                class="card-input b "
+                type="text"
+              />
+              <ul class="operations-list">
+              <li><button class="calculator-btn" type="button">+</button></li>
+              <li><button class="calculator-btn" type="button">*</button></li>
+              <li><button class="calculator-btn" type="button">-</button></li>
+              <li><button class="calculator-btn" type="button">/</button></li>
+              </ul>
+          <input
+              name="calculatorNumber"
+                placeholder="Введіть число"
+                class="card-input js-calculator-number"
+                type="text"
+              />
+              <button class="calculator-btn" type="button">=</button>
+              <p class="calculator-text">Результат</p>
+              </div>
         </div>
         <div class="card">
           <h2 class="card-title">Калькулятор часу</h2>
+          <div class="card-wrapper time-calculator">
+            <form class="card-form js-time-calculator-form" action="">
+              <input
+              name="timeInput"
+                placeholder="Введіть число"
+                class="card-input guess-number-input"
+                type="text"
+              />
+              <button class="card-btn" type="submit">
+                <img src="./img/search.svg" alt="">
+              </button>
+            </form>
+            <img src="./img/time-vector.svg" alt="">
+              <p class="js-time-calculator-text">0 дн. 00:00:00</p>
+            </div>
         </div>
         <div class="card">
           <h2 class="card-title">Введіть 3 числа</h2>
@@ -115,12 +147,47 @@
           <p class="card-text js-biggest-number-text">Найбільше число, яке ви ввели - <span class="js-result"></span></p>
         </div>
         <div class="card">
+        <p class="football-text">Футбол</p>
+        <div id="field">
+          <img src=".//img/football.svg" id="ball"> 
+        </div>
+        </div>
+        <div class="card">
           <h2 class="card-title">Наша команда</h2>
         </div>
       </div>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <a class="header-logo" href="./index.html"><img src="./img/header-img.svg" alt="" /></a>
+        <ul class="list">
+          <li>
+            <p>Тел: +38 (123) 456 78 90</p>
+          </li>
+          <li>
+            <p>E-Mail: codingmagic@gmail.com</p>
+          </li>
+          <li>
+            <p>Facebook: CodingMagic</p>
+          </li>
+          <li>
+            <p>Twitter: CodingMagic</p>
+          </li>
+          <li>
+            <p>Instagram: CodingMagic</p>
+          </li>
+        </ul>
+        <div class="subscribe">
+            <input
+              name="biggestInput"
+                placeholder="Введіть число"
+                class="card-input js-biggest-number"
+                type="text"
+              />
+              <button type="submit">Підписатись</button>
+              <p>*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</p>
+        </div>
+      </div>
     </footer>
     <script type="module" src="./js/check-year.js">
     </script>
@@ -131,6 +198,10 @@
     <script type="module" src="./js/calculator.js">
     </script>
     <script type="module" src="./js/theme-change.js">
+    </script>
+    <script type="module" src="./js/ball.js">
+    </script>
+    <script type="module" src="./js/time-calculator.js">
     </script>
   </body>
 </html>
