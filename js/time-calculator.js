@@ -29,4 +29,5 @@ function onSubmit(ev){
     // 3600 sec in 1 hour
     // 86400 in 1 day
     text.textContent = `${days} дн. ${hours}:${minutes}:${seconds}`
+    form.reset()
 }
