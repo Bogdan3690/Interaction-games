@@ -1,3 +1,45 @@
 .footer{
     padding: 60px 0;
 }
+
+.footer-logo{
+    width: 165px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    gap: 186px;
+}
+
+.footer .list{
+font-size: 12px;
+line-height: 170%;
+width: 322px;
+}
+
+.footer .text{
+    width: 254px;
+font-size: 6px;
+}
+
+.subscribe{
+    display: flex;
+    width: 347px;
+    height: 35px;
+}
+
+.subscribe-btn{
+    width: 107px;
+border-radius: 20px;
+padding: 10px;
+background-color: var(--text-color);
+color: var(--main-bg-color);
+font-size: 12px;
+}
+
+.subscribe .card-input{
+    width: 204px;
+border-radius: 20px;
+margin-right: 36px;
+}
