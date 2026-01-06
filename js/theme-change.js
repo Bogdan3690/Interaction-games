@@ -1,7 +1,7 @@
 const themeBtn = document.querySelector(".switch-theme-btn");
 const whiteThemeImg = themeBtn.querySelector(".img-white-theme")
 const blackThemeImg = themeBtn.querySelector(".img-black-theme")
-console.log(blackThemeImg);
+// console.log(blackThemeImg);
 
 themeBtn.addEventListener('click', onToogleBtnClick)
 
@@ -9,7 +9,7 @@ let darkTheme = false
 
 function onToogleBtnClick(ev){
     darkTheme = !darkTheme
-    console.log(darkTheme);
+    // console.log(darkTheme);
     if (darkTheme === true) {
         blackThemeImg.classList.remove('hidden')
         whiteThemeImg.classList.add('hidden')

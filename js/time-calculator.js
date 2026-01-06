@@ -1,6 +1,6 @@
 const form = document.querySelector('.js-time-calculator-form')
 const text = document.querySelector('.js-time-calculator-text')
-console.log(form);
+// console.log(form);
 
 form.addEventListener('submit', onSubmit)
 

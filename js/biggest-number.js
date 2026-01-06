@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll(".js-biggest-number");
 const text = document.querySelector(".js-biggest-number-text");
 const result = text.querySelector(".js-result");
-console.log(result);
+// console.log(result);
 
 inputs.forEach((element) => element.addEventListener("input", onInput));
 
