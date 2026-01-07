@@ -1,0 +1,40 @@
+.images-slider{
+    width: 150px;
+height: 150px;
+border-radius: 20px;
+border: solid 2px red;
+overflow: hidden;
+position: relative;
+}
+
+.images-slider img{
+object-fit: cover;
+}
+
+.images-slider .image{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 150px;
+height: 150px;
+overflow: hidden;
+}
+
+.images-slider .image.active{
+    opacity: 1;
+}
+
+.swiper{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.swiper-btn{
+    width: 50px;
+    height: 100px;
+    background-color: gray;
+}

@@ -18,13 +18,13 @@ line-height: 170%;
 width: 322px;
 }
 
-.footer .text{
-    width: 254px;
+.footer .sub-text{
+    width: 264px;
 font-size: 6px;
 }
 
 .subscribe{
-    display: flex;
+    // display: flex;
     width: 347px;
     height: 35px;
 }
@@ -42,4 +42,9 @@ font-size: 12px;
     width: 204px;
 border-radius: 20px;
 margin-right: 36px;
+}
+
+.subscribe-form{
+    display: flex;
+    margin-bottom: 16px;
 }

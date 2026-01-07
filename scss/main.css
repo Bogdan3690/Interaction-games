@@ -311,6 +311,48 @@ main {
   width: 150px;
 }
 
+.images-slider {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  border: solid 2px red;
+  overflow: hidden;
+  position: relative;
+}
+
+.images-slider img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.images-slider .image {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.images-slider .image.active {
+  opacity: 1;
+}
+
+.swiper {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.swiper-btn {
+  width: 50px;
+  height: 100px;
+  background-color: gray;
+}
+
 .footer {
   padding: 60px 0;
 }
@@ -331,13 +373,12 @@ main {
   width: 322px;
 }
 
-.footer .text {
-  width: 254px;
+.footer .sub-text {
+  width: 264px;
   font-size: 6px;
 }
 
 .subscribe {
-  display: flex;
   width: 347px;
   height: 35px;
 }
@@ -355,4 +396,9 @@ main {
   width: 204px;
   border-radius: 20px;
   margin-right: 36px;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-bottom: 16px;
 }/*# sourceMappingURL=main.css.map */
