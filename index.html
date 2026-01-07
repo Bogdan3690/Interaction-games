@@ -218,8 +218,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="./index.html"
-          ><img src="./img/header-img.svg" alt=""/></a>
+        <a class="footer-logo" href="./index.html"><img src="./img/header-img.svg" alt=""/></a>
         <ul class="list">
           <li>
             <p>Тел: +38 (123) 456 78 90</p>
@@ -245,7 +244,17 @@
             class="card-input js-emeil"
             type="text"
           />
-          <button class="subscribe-btn" type="submit">Підписатись</button>
+          <button data-action="open-modal" class="subscribe-btn" type="button">Підписатись</button>
+      <div class="backdrop js-backdrop">
+        <div class="modal">
+          <h2 class="card-title">Дякую за підписку!</h2>
+        <button type="button" class="close-button" data-action="close-modal"><img class="close-img" src="./img/cross.svg" alt=""></button>
+        <img class="game-development" src="./img/game-development 1.svg" alt="">
+        <img class="puzzle" src="./img/puzzle 1.svg" alt="">
+        <img class="tic-tac-toe" src="./img/tic-tac-toe 1.svg" alt="">
+        <img class="sword" src="./img/sword 1.svg" alt="">
+        </div>
+      </div>
           </form>
         <p class="sub-text">
           *Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті
@@ -260,5 +269,6 @@
     <script type="module" src="./js/theme-change.js"></script>
     <script type="module" src="./js/ball.js"></script>
     <script type="module" src="./js/time-calculator.js"></script>
+    <script type="module" src="./js/modal.js"></script>
   </body>
 </html>
