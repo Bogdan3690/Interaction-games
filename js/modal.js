@@ -1,13 +1,25 @@
 const openBtn = document.querySelector(['button[data-action="open-modal"'])
 const closeBtn = document.querySelector(['button[data-action="close-modal"'])
 const jsBackdrop = document.querySelector('.js-backdrop')
-console.log(closeBtn);
+const text = document.querySelector('.sub-text')
+const form = document.querySelector('.subscribe-form')
 
-openBtn.addEventListener('click', onOpenBtnClick)
 closeBtn.addEventListener('click', onCloseBtnClick)
 jsBackdrop.addEventListener('click', onBackDropClick)
 
-function onOpenBtnClick(){
+form.addEventListener('submit', onSubmit)
+
+function onSubmit(event){ 
+    event.preventDefault()
+    const form = event.target
+    const value = form.elements.emailInput.value
+    console.log(value);
+    if (value === '') {
+        text.textContent = 'Введіть email'
+        text.style.color = 'red'
+        text.style.fontSize = '20px'
+        return
+    }
     document.body.classList.add('show-modal')
     document.addEventListener('keydown', onEsc)
 }
@@ -39,3 +51,4 @@ function onEsc(event){
         onCloseModal()
     }
 }
+

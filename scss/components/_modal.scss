@@ -39,10 +39,10 @@ body.show-modal .modal {
   transition: transform 200ms ease-in-out;
 }
 
-.close-img{
+.close-button{
     position: absolute;
     top: 25px;
-    left: 660px;
+    right: 20px;
 }
 
 .modal .card-title{
